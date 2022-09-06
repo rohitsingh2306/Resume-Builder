@@ -1,0 +1,78 @@
+.outer-div2 {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education {
+    box-shadow: 0px 0px 6px 6px rgb(209, 249, 221);
+    width: 40rem;
+    border: 2px solid rgb(185, 181, 181);
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 2rem;
+}
+
+h3 {
+    text-align: center;
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+}
+
+.inputs div {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.inputs label {
+    color: rgb(164, 163, 163);
+}
+
+.inputs input {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+}
+
+.inputs input:focus {
+    outline: 1px solid blue;
+    padding-left: 0.75rem;
+}
+
+.inputs input::placeholder {
+    color: rgb(185, 181, 181);
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons2 button {
+    margin: 2rem 3rem 2rem 0rem;
+    padding: 0.5rem;
+    width: 5rem;
+    background-color: rgb(240, 227, 214);
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#back:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 81);
+    color: white;
+}
+
+#next:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}

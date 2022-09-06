@@ -1,0 +1,125 @@
+.outer-div5 {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra {
+    box-shadow: 0px 0px 6px 6px rgb(209, 249, 221);
+    width: 40rem;
+    border: 2px solid rgb(185, 181, 181);
+    padding: 1rem 2rem 2rem 2rem;
+    margin: 2rem;
+}
+
+.desc5 .skillIp label {
+    position: relative;
+    top: 10px;
+}
+
+.desc5 .input-skill {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.desc5 .input-skill .add-skill {
+    position: relative;
+    margin-top: 0px;
+    height: 0px;
+}
+
+.desc5 .add-btn {
+    background-color: rgb(8, 174, 8);
+    color: white;
+    cursor: pointer;
+}
+
+.skillIp .lists {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(-10%);
+}
+
+.skillIp .item {
+    margin: 5px 2px 0 2px;
+    display: flex;
+    background-color: rgb(249, 249, 236);
+    list-style: none;
+}
+
+.skillIp .del-btn {
+    background-color: rgb(249, 249, 236);
+    border: none;
+    cursor: pointer;
+}
+
+h3 {
+    text-align: center;
+}
+
+.desc5 label {
+    color: rgb(164, 163, 163);
+}
+
+.desc5 textarea, .desc5 select {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+}
+
+
+.desc5 textarea::placeholder {
+    color: rgb(185, 181, 181);
+}
+
+.desc5 div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.desc5 input, .desc5 textarea {
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+}
+
+.desc5 input::placeholder {
+    color: rgb(185, 181, 181);
+}
+
+.buttons5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttons5 button {
+    margin: 2rem 3rem 2rem 0rem;
+    padding: 0.5rem;
+    width: 5rem;
+    background-color: rgb(240, 227, 214);
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#back:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 81);
+    color: white;
+}
+
+#next:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
